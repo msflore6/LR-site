@@ -1,0 +1,150 @@
+* {
+  font-family: Verdana, Ariel, sans-serif;
+  line-height: 1.5;
+}
+Body {
+  background-color: #80061c;
+  margin: 0px;
+}
+header {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-style: double;
+  border-color: black;
+}
+nav {
+  width: 1000px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  background: #80061c;
+  padding: 20px;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-color: black;
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a:hover {
+  color: gray;
+}
+#container {
+  background: white;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  text-align: center;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+form {
+  width: 250px;
+  margin: 10px auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7e6955;
+  padding: 32px;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  border-color: #60432d;
+  border-style: double;
+}
+label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  size: 16px;
+  border-radius: 4px;
+  border-color: #60432d;
+  padding: 5px;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #60432d;
+  border-radius: 4px;
+}
+#img3 {
+  float: right;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  size: 16px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  border-style: 2 px inset;
+  border-color: #60432d;
+}
+main {
+  padding: 32px;
+}
+#img1 {
+  width: 500px;
+  float: right;
+}
+h3 {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 32px;
+}
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+#box {
+  text-align: center;
+  padding: 40px;
+}
